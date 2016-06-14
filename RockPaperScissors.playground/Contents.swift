@@ -89,4 +89,4 @@ func checkForWinBetween(playerOne playerOne:Player, playerTwo:Player) -> Player?
 let playerOne = Player()
 let playerTwo = ComputerOpponent()
 
-rockPapperScissorsShoot(playerOne, choice: .Scissors, opponent: playerTwo)
+let roundOne = rockPapperScissorsShoot(playerOne, choice: .Scissors, opponent: playerTwo)
